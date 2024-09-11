@@ -1,4 +1,3 @@
-let img = document.getElementsByClassName("profile-img")[0];
 
 let name1 = document.getElementsByTagName("h1")[0];
 let name2 = document.getElementsByTagName("h1")[1];
@@ -21,7 +20,6 @@ let languages = document.getElementsByClassName("languages-list")[0];
 let sideDiv = document.getElementsByClassName("side-section")[0];
 
 function sideHoverOn() {
-  img.src = "formal-img.jpg";
   name1.innerHTML = "<strong>Loura</strong> alfarsi";
   career1.textContent = "Frontend Developer";
   contactList.innerHTML = ` <li>
@@ -59,7 +57,6 @@ function sideHoverOn() {
 }
 
 function sideHoverOff() {
-  img.src = "profile-img1.jpg";
   name1.innerHTML = "<strong>Johnathan</strong> Reid";
   career1.textContent = "marketing manager";
   contactList.innerHTML = `  <li>
